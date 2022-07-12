@@ -11,6 +11,16 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar navbar-light bg-light justify-content-between p-3">
+      <span class="navbar-brand mb-0 h1">Watchlist</span>
+      <%= link_to 'Add a list', new_list_path, class: "btn btn-primary" %>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center p-5">
+        <div class="col-6">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

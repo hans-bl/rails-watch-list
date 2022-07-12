@@ -1,7 +1,7 @@
-<h1>All lists</h1>
+<h1>Watchlists</h1>
 
 <ul>
-  <% @lists.each do |l| %>
-    <li><%= l.name %></li>
+  <% @lists.each do |list| %>
+    <li><%= list.name %> (<%= link_to "Details", list_path(list)%>)</li>
   <% end %>
 </ul>
