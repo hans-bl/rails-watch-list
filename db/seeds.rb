@@ -6,7 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Movie.create(title: "Wonder Woman 1984", overview: "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s", poster_url: "https://image.tmdb.org/t/p/original/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", rating: 6.9)
-Movie.create(title: "The Shawshank Redemption", overview: "Framed in the 1940s for double murder, upstanding banker Andy Dufresne begins a new life at the Shawshank prison", poster_url: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", rating: 8.7)
-Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
-Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
+Movie.create(title: "No Time To Die", overview: "007 is on mission to save the world. But this time, he dies.", poster_url: "https://image.tmdb.org/t/p/original/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg", rating: 8.6)
+Movie.create(title: "Skyfall", overview: "007 is on mission to save the world. In the meantime, Adele sings.", poster_url: "https://image.tmdb.org/t/p/original/nNFECkwmrYoUQ17EnPTcSlRictV.jpg", rating: 8.7)
+Movie.create(title: "Dr. No", overview: "007 is on mission to save the world. Against a mysterious Dr. NO.", poster_url: "https://image.tmdb.org/t/p/original/txWTVoO9VltSsEghOoxdn8y6UqK.jpg", rating: 7.9)
+Movie.create(title: "Goldfinger", overview: "007 is on mission to save the world. This time, against Auric Goldfinger.", poster_url: "https://image.tmdb.org/t/p/original/jgGsfNAuGMefjYINFh4Q185GrhD.jpg", rating: 7.0)
+Movie.create(title: "Never Say Never Again", overview: "007 is on mission to save the world. And M doesn't like his methods.", poster_url: "https://image.tmdb.org/t/p/original/andkHE9ZNsjN7m1EITqPP5Yi9xp.jpg", rating: 7.0)

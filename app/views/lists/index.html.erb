@@ -1,7 +1,15 @@
-<h1>Watchlists</h1>
+<h1>007 Watchlists</h1>
 
-<ul>
-  <% @lists.each do |list| %>
-    <li><%= list.name %> (<%= link_to "Details", list_path(list)%>)</li>
+<div class="row">
+  <% @lists.each do |l| %>
+    <div class="col-12">
+      <div class="card">
+        <img class="card-img-top" src="<%= l.photo.key %>" alt="<%= l.name %> poster">
+        <div class="card-body">
+          <h5 class="card-title"><%= l.name %></h5>
+          <%= link_to "Details", list_path(l), class: "btn btn-primary text-white" %>
+        </div>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>

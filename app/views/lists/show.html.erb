@@ -1,8 +1,12 @@
 <%= link_to '< Back to the lists', lists_path, class: "btn btn-outline-secondary mb-3" %>
-<h1>Movies bookmarked in <%= @list.name %></h1>
+<%= cl_image_tag @list.photo.key, height: 300, width: 400, crop: :fill %>
+<br>
+<br>
+<h1>Movies bookmarked in "<%= @list.name %>"</h1>
 
 <br>
 <br>
+
 <div class="row">
   <% @list.movies.each do |movie| %>
     <% bookmark = Bookmark.find_by(movie_id: movie.id, list_id: @list.id) %>

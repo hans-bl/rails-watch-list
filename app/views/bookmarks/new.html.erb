@@ -4,5 +4,6 @@
   <%= f.input :comment %>
   <%= f.association :movie %>
   <%# <%= f.association :list %>
+  <%= f.input :photo, as: :file %>
   <%= f.submit "Create a new bookmark", class: "btn btn-primary" %>
 <% end %>
